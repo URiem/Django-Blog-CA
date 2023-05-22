@@ -32,6 +32,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     '8000-uriem-django-blog-ca-c1p1gvn979.us2.codeanyapp.com',
+    'ulis-django-blog.herokuapp.com',
     'codestar.herokuapp.com', 'localhost']
 
 
