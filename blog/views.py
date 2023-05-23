@@ -47,7 +47,7 @@ class PostDetail(View):
                 "commented": False,
                 "liked": liked,
                 "comment_form": CommentForm(),
-                "message": message,
+                # "message": message,
             },
         )
 
