@@ -31,6 +31,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
+X_FRAME_OPTIONS = 'SAMEORIGIN'
+
 ALLOWED_HOSTS = [
     '8000-uriem-django-blog-ca-c1p1gvn979.us2.codeanyapp.com',
     'ulis-django-blog.herokuapp.com',
